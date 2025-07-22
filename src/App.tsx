@@ -7,7 +7,7 @@ import {Amplify} from "aws-amplify";
 function App() {
   const [count, setCount] = useState(0)
     useEffect(() => {
-        console.log("Amplify configure")
+        console.log("Amplify configure world")
         console.log(Amplify.getConfig())
     }, []);
 
