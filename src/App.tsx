@@ -9,7 +9,7 @@ function App() {
     useEffect(() => {
         console.log("Amplify configure world")
         console.log(Amplify.getConfig())
-        console.log("hello world")
+        console.log("hello world ")
     }, []);
 
   return (
